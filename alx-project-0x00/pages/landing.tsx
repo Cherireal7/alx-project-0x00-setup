@@ -1,12 +1,12 @@
 import Card from "@/components/Card";
-import ButtonVariants from "@/components/Button";
+import Button from "@/components/Button";
 
 const Landing: React.FC = () => {
   return (
     <div className="p-6">
       <h1 className="text-xl font-extralight mb-4">Landing Page</h1>
 
-      <ButtonVariants />
+      <Button />
 
       <div className="mt-8">
         <Card />

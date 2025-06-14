@@ -15,7 +15,7 @@ const variants: ButtonProps[] = [
   { title: "Large Rounded-full", styles: "text-base rounded-full" },
 ];
 
-const ButtonVariants: React.FC = () => {
+const Button: React.FC = () => {
   return (
     <div className="flex flex-wrap gap-3">
       {variants.map((btn, idx) => (
@@ -30,4 +30,4 @@ const ButtonVariants: React.FC = () => {
   );
 };
 
-export default ButtonVariants;
+export default Button;
