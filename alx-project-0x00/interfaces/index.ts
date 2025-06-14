@@ -3,6 +3,6 @@ export interface PillProps {
 }
 
 export interface ButtonProps {
-  styles: string;
-  className?: string;
+  title: string;
+  styles?: string;
 }
